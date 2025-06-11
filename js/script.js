@@ -135,8 +135,8 @@ function trackDownloadButtonClicks() {
             // Simulate redirect to app store
             setTimeout(() => {
                 window.location.href = platform === 'ios' 
-                    ? 'https://apps.apple.com/id/app/pantau-cctv/id123456789' 
-                    : 'https://play.google.com/store/apps/details?id=com.pantau.cctv';
+                    ? 'https://apps.apple.com/' 
+                    : 'https://play.google.com/store/apps/';
             }, 500);
         });
     });
