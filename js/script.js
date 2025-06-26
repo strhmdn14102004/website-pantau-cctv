@@ -136,7 +136,7 @@ function trackDownloadButtonClicks() {
             setTimeout(() => {
                 window.location.href = platform === 'ios' 
                     ? 'https://apps.apple.com/' 
-                    : 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/999925718/2869fc05-1724-4504-a4cb-8397b647794f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250626%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250626T084528Z&X-Amz-Expires=1800&X-Amz-Signature=1c1bf02a02980b0cc149c59450ab1c86a66e8bb08dbd42827e487d2eea6a48a5&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DPantau.cctv.apk&response-content-type=application%2Fvnd.android.package-archive';
+                    : 'https://github.com/strhmdn14102004/website-pantau-cctv/releases/download/androidrelease/Pantau.cctv.apk';
             }, 500);
         });
     });
