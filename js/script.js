@@ -136,7 +136,7 @@ function trackDownloadButtonClicks() {
             setTimeout(() => {
                 window.location.href = platform === 'ios' 
                     ? 'https://apps.apple.com/' 
-                    : 'https://play.google.com/store/apps/';
+                    : 'https://drive.google.com/uc?export=download&id=1PPsCzMXo67hXLlBsAFhv3-ktiwo6p7GT';
             }, 500);
         });
     });
