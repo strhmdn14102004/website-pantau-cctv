@@ -135,8 +135,8 @@ function trackDownloadButtonClicks() {
             // Simulate redirect to app store
             setTimeout(() => {
                 window.location.href = platform === 'ios' 
-                    ? 'https://apps.apple.com/' 
-                    : 'https://github.com/strhmdn14102004/website-pantau-cctv/releases/download/androidrelease/Pantau.cctv.apk';
+                    ? 'https://github.com/strhmdn14102004/website-pantau-cctv/releases/download/application/PantauCctv.ipa' 
+                    : 'https://github.com/strhmdn14102004/website-pantau-cctv/releases/download/application/PantauCctv.apk';
             }, 500);
         });
     });
